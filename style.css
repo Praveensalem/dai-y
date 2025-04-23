@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.real-estate{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Assets/home\ img.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+.real-estate::-webkit-scrollbar {
+    display: none;
+}
+  
+.header{
+    height: 14vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-menu nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+}
+
+.header-menu nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.header-menu nav ul a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-menu li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    padding: 40px 0;
+}
+
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-number svg, p{
+    fill: black;
+    color: black;
+}
+
+.contact-number svg, p:hover{
+    cursor: pointer;
+}
+
+.profile svg{
+    fill: black;
+}
+
+.profile svg:hover{
+    cursor: pointer;
+}
+
+.creat-listing button{
+    color: white;
+    background-color: #0d5ed1;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.creat-listing button:hover{
+    cursor: pointer;
+}
+
+.home-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 10px   ;
+}
+
+.home-page p{
+    text-align: center;
+}
+
+.area-status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 10px;
+}
+
+.area-status h3{
+    padding: 10px;
+    background-color: white;
+}
+
+.area-status h3:hover{
+    cursor: pointer;
+}
+
+.property-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.looking-for, .location, .property-size, .your-budget{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.search-button button{
+    padding: 10px 60px;
+    background-color: #00aeff;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.looking-for select{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.location select{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.property-size select{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.your-budget select{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Featured-Listings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 10px;
+}
+
+.listing-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.listing-details1{
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-image: url(Assets/listing-details1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.listing-details2{
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-image: url(Assets/listing-details2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.listing-details3{
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-image: url(Assets/listing-details3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.listing-details1 p{
+    color: white;
+    background-color: #76c720;
+    padding: 5px;
+}
+.listing-details1 h4{
+    color: white;
+    background-color: #2b2728;
+    padding: 5px;
+    font-size: small;
+    font-weight: 300;
+    cursor: pointer;
+}
+.listing-details2 p{
+    color: white;
+    background-color: #76c720;
+    padding: 5px;
+}
+.listing-details2 h4{
+    color: white;
+    background-color: #2b2728;
+    padding: 5px;
+    font-size: small;
+    font-weight: 300;
+    cursor: pointer;
+}
+.listing-details3 p{
+    color: white;
+    background-color: #76c720;
+    padding: 5px;
+}
+.listing-details3 h4{
+    color: white;
+    background-color: #2b2728;
+    padding: 5px;
+    font-size: small;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.sq-ft1{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+.featured-icons{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.featured-icons svg{
+    border-radius: 3px;
+    cursor: pointer;
+}
